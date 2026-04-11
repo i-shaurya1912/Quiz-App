@@ -55,7 +55,7 @@ const Leaderboard = () => {
             <p className="text-on-surface-variant max-w-xl text-lg font-body">Witness the elite minds of the Observatory. The most brilliant stars shine brightest in our constellation.</p>
           </div>
 
-          {/* Filters */}
+         
           <div className="flex flex-wrap items-center justify-between gap-6 mb-12">
             <div className="flex p-1 bg-surface-container-low rounded-full border border-white/5">
               <button className="px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 text-on-surface-variant hover:text-on-surface">Today</button>
@@ -68,9 +68,9 @@ const Leaderboard = () => {
             </div>
           </div>
 
-          {/* Podium Section */}
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 items-end">
-            {/* 2nd Place */}
+           
             <div className="order-2 md:order-1 flex flex-col items-center">
               <div className="relative group mb-6">
                 <div className="absolute -inset-1 bg-gradient-to-b from-zinc-400 to-transparent rounded-full blur opacity-25 group-hover:opacity-50 transition duration-500"></div>
