@@ -158,7 +158,9 @@ const Dashboard = () => {
                   <h4 className="font-body text-sm font-semibold text-white">Quantum Physics Basics</h4>
                   <p className="text-xs text-on-surface-variant">Played 2 hours ago</p>
                 </div>
+                {/* <div className="text-right"> */}
                 <div className="text-right">
+                  
                   <div className="text-sm font-lexend font-bold text-tertiary">92%</div>
                   <div className="text-[10px] text-on-surface-variant font-label">A+ GRADE</div>
                 </div>
