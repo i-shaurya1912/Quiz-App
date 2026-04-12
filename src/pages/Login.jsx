@@ -17,6 +17,8 @@ const Login = () => {
           <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-on-surface mb-2">Luminous Noir</h1>
           <p className="font-body text-on-surface-variant text-sm tracking-wide">Enter the Observatory</p>
         </div>
+        {/* 
+        <div className="glass-card rounded-lg p-8 shadow-2xl relative"> */}
         
         <div className="glass-card rounded-lg p-8 shadow-2xl relative">
           <div className="mb-8">
