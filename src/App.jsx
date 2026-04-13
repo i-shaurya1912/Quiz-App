@@ -11,6 +11,7 @@ import QuizResults from './pages/QuizResults';
 
 function App() {
   return (
+    //<Router>
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
