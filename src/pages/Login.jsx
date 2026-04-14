@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-  return (
+ // return (
+  return(
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="ambient-orb bg-primary top-[-20%] left-[-10%]"></div>
       <div className="ambient-orb bg-secondary bottom-[-20%] right-[-10%]"></div>
@@ -11,6 +12,7 @@ const Login = () => {
         <div className="flex flex-col items-center mb-10">
           <Link to="/" className="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-surface-container-high border border-white/5 shadow-[0_0_30px_-5px_rgba(161,166,255,0.2)] hover:scale-105 transition-transform">
             <span className="material-symbols-outlined text-primary text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>
+             
               rocket_launch
             </span>
           </Link>
