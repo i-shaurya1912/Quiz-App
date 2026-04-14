@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// const QuizLibrary = () => {
+//   return (
 const QuizLibrary = () => {
   return (
     <div className="bg-background text-on-surface font-body min-h-screen">
