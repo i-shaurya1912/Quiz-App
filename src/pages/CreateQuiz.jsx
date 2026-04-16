@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const CreateQuiz = () => {
   return (
     <div className="bg-background text-on-background min-h-screen">
-      {/* TopAppBar */}
+
       <header className="fixed top-0 w-full flex justify-between items-center px-6 py-4 bg-zinc-900/40 backdrop-blur-xl border-b border-white/10 z-50 shadow-[0_0_40px_-10px_rgba(161,166,255,0.08)]">
         <div className="flex items-center gap-4">
           <Link to="/dashboard" className="p-2 hover:bg-white/5 transition-all duration-300 active:scale-95 text-zinc-400">
