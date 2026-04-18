@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const QuizLibrary = () => {
   return (
     <div className="bg-background text-on-surface font-body min-h-screen">
-      {/* TopAppBar */}
+   
       <header className="fixed top-0 w-full flex justify-between items-center px-6 py-4 bg-zinc-900/40 backdrop-blur-xl border-b border-white/10 shadow-[0_0_40px_-10px_rgba(161,166,255,0.08)] z-50">
         <div className="flex items-center gap-3">
           <span className="material-symbols-outlined text-indigo-400">explore</span>
@@ -48,7 +48,7 @@ const QuizLibrary = () => {
           </div>
         </aside>
 
-        {/* Main Content Area */}
+      
         <main className="flex-1 md:ml-64 px-6 md:px-12 py-10 min-h-screen">
           {/* Search & Filter Section */}
           <div className="max-w-6xl mx-auto mb-12">
