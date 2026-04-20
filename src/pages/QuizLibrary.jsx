@@ -50,7 +50,7 @@ const QuizLibrary = () => {
 
       
         <main className="flex-1 md:ml-64 px-6 md:px-12 py-10 min-h-screen">
-          {/* Search & Filter Section */}
+         
           <div className="max-w-6xl mx-auto mb-12">
             <div className="mb-10">
               <h2 className="font-headline text-5xl md:text-6xl font-bold tracking-tighter mb-4 text-on-surface">Explore Knowledge</h2>
