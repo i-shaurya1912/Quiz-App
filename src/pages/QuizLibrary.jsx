@@ -31,7 +31,9 @@ const QuizLibrary = () => {
               <Link to="/library" className="flex items-center gap-4 px-4 py-3 rounded-lg text-[#a1a6ff] bg-indigo-500/10 border-r-4 border-[#a1a6ff] font-lexend text-sm tracking-wide transition-colors duration-200">
                 <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>auto_stories</span>
                 <span>Library</span>
-              </Link>
+             // </Link>
+            
+            </link>
               <Link to="/create" className="flex items-center gap-4 px-4 py-3 rounded-lg text-zinc-500 hover:bg-zinc-800/50 hover:text-white font-lexend text-sm tracking-wide transition-colors duration-200">
                 <span className="material-symbols-outlined">add_circle</span>
                 <span>Create</span>
