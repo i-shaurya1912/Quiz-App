@@ -51,7 +51,7 @@ const Dashboard = () => {
         </div>
       </aside>
 
-      {/* Main Content */}
+      
       <main className="ml-64 pt-24 pb-12 px-10 min-h-screen">
         {/* Welcome Header */}
         <header className="mb-12">
