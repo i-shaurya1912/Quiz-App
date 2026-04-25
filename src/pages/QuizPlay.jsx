@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const QuizPlay = () => {
   return (
     <div className="bg-background font-body text-on-surface selection:bg-primary/30 min-h-screen flex flex-col relative w-full overflow-x-hidden">
-      {/* TopAppBar */}
+      
       <header className="fixed top-0 w-full flex justify-between items-center px-6 py-4 bg-zinc-900/40 backdrop-blur-xl border-b border-white/10 z-50 shadow-[0_0_40px_-10px_rgba(161,166,255,0.08)]">
         <div className="flex items-center gap-4">
           <Link to="/library" className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/5 transition-all duration-300 active:scale-95 text-zinc-400">
