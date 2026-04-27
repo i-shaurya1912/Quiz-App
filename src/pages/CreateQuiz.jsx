@@ -25,7 +25,7 @@ const CreateQuiz = () => {
       </header>
       
       <main className="pt-32 pb-24 px-6 max-w-5xl mx-auto">
-        {/* Toast Notification (Contextual) - you can make this dynamic with state */}
+        {/* Toast Notification () - you can make this dynamic with state */}
         <div className="fixed top-24 left-1/2 -translate-x-1/2 z-[60] flex items-center gap-3 px-6 py-3 rounded-full bg-surface-bright border border-tertiary/20 shadow-[0_0_20px_rgba(0,252,154,0.1)]">
           <span className="material-symbols-outlined text-tertiary" style={{ fontVariationSettings: "'FILL' 1" }}>check_circle</span>
           <span className="text-sm font-medium text-on-surface">Quiz ready to configure!</span>
