@@ -18,8 +18,8 @@ const Dashboard = () => {
           </div>
         </div>
       </header>
-
-      {/* NavigationDrawer */}
+  {/* NavigationDrawer */}
+   
       <aside className="fixed left-0 top-0 h-full pt-20 flex flex-col w-64 border-r border-zinc-800/30 bg-[#0e0e0f] z-40">
         <div className="px-6 py-4">
           <h2 className="text-lg font-black text-white font-lexend">Observatory</h2>
