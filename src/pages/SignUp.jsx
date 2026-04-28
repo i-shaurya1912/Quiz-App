@@ -12,7 +12,8 @@ const SignUp = () => {
           <Link to="/" className="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-surface-container-high border border-white/5 shadow-[0_0_30px_-5px_rgba(161,166,255,0.2)] hover:scale-105 transition-transform">
             <span className="material-symbols-outlined text-primary text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>
               rocket_launch
-            </span>
+            {/* </span> */}
+               </span>
           </Link>
           <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-on-surface mb-2">Luminous Noir</h1>
           <p className="font-body text-on-surface-variant text-sm tracking-wide">Join the Observatory</p>
