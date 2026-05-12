@@ -109,8 +109,9 @@ const Leaderboard = () => {
               <p className="text-primary font-lexend font-bold text-lg">11,900 pts</p>
             </div>
           </div>
+           {/* Leaderboard Table */}
 
-          {/* Leaderboard Table */}
+         
           <div className="glass-card rounded-xl overflow-hidden border border-white/5">
             <table className="w-full text-left border-collapse">
               <thead className="bg-surface-container-highest/50">
